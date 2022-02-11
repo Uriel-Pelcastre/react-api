@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    
+    <title>React App</title>
+    
+  </head>
+  <script type="text/javascript">
+    window.onbeforeunload = function() {
+        return "¿Estás seguro que deseas salir de la actual página?"
+    }
+  </script>
+
+<!-- <script type="text/javascript">
+  function deshabilitaRetroceso(){
+    window.location.hash="no-back-button";
+    window.location.hash="Again-No-back-button" //chrome
+    window.onhashchange=function(){window.location.hash="no-back-button";}
+}
+</script>
+<script type="text/javascript">
+  window.history.forward();
+  function sinVueltaAtras(){ window.history.forward(); }
+</script> -->
+<!-- <script type = "text/javascript" >
+  function changeHashOnLoad() {
+       window.location.href += "#";
+       setTimeout("changeHashAgain()", "50"); 
+  }
+  
+  function changeHashAgain() {
+    window.location.href += "1";
+  }
+  
+  var storedHash = window.location.hash;
+  window.setInterval(function () {
+      if (window.location.hash != storedHash) {
+           window.location.hash = storedHash;
+      }
+  }, 50);
+  
+  
+  </script> -->
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+   
+  </body>
+</html>
+
+
